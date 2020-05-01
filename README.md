@@ -13,8 +13,8 @@ A blocking delay library written for STM32.
       delay_setCPUclockFactor(8000000); /* Initialize the delay library with HCLK = 8MHz */
       
       /* some code */
-      delay_ms(500); /* delay be 0.5 sec */
       
+      delay_ms(500); /* delay be 0.5 sec */
    }
    ```
 2. You can now call `delay_ms(...)` with the required time in milliseconds, or `delay_us(...)` with the required time in microseconds.
